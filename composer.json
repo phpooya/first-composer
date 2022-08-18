@@ -1,0 +1,20 @@
+{
+    "name": "p.eraghi/first-package",
+    "description": "contact us form for laravel",
+    "type": "library",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Chat\\": "."
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chat\\ChatServiceProvider"
+            ]
+        }
+    }
+}
